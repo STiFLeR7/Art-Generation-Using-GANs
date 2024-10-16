@@ -22,14 +22,14 @@ This project uses **PyTorch** to implement a GAN that generates art in the style
 
 ## Dataset
 
-- **Location**: The dataset is stored in the directory `D:/Art-Generation-Using-GANs/Portraits/all_imgs/fake_class`.
+- **Location**: The dataset is stored in the directory `D:/Art-Generation-Using-GANs/Portraits/all_imgs`.
 - **Structure**: The images must be placed inside a subfolder for compatibility with PyTorch's `ImageFolder` format.
 - **Supported Formats**: The images should be in `.jpg`, `.jpeg`, `.png`, or other standard formats.
 
 Example folder structure:
 
 ```
-D:/Art-Generation-Using-GANs/Portraits/all_imgs/
+D:/Art-Generation-Using-GANs/Portraits/
     ├── image1.jpg
     ├── image2.jpg
     └── ...
